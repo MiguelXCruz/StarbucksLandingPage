@@ -6,8 +6,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 section{
     position: relative;
     width: 100%;
@@ -64,17 +62,7 @@ header ul li a{
     text-decoration: none;
 }
 
-.toggle{
-    position: relative;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    background: url(../images/menu.png);
-    background-size: 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: invert(1); /*fazendo a iamgem ficar preta */
-}
+
 
 .content{
     position: relative;
@@ -144,7 +132,9 @@ header ul li a{
     margin: 0 20px;
     cursor:  pointer;
     transition: 0.5s;
+    background-color: transparent;
 }
+
 
 .thumb li:hover{
     transform: translateY(-15px);
@@ -195,8 +185,49 @@ header ul li a{
         padding: 20px 20px 120px;
     }
 
+    .toggle{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(../images/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1); /*fazendo a iamgem ficar preta */
+        z-index: 10;
+    }
+    
+    .toggle.active{
+        position: fixed;
+        right: 20px;
+        background: url(../images/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1); /*fazendo a iamgem ficar preta */
+    
+    }
+    
+    .navegation.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        z-index: 10;
+    }
+
+
+
     .content{
         flex-direction: column;
+        margin-top: 100px;
     }
 
     .content .textBox h2{
