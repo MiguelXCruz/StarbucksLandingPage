@@ -2,11 +2,9 @@
   <img src="./public/images/logo.png" alt="Logo Starbucks" width="150">
 </h1>
 
-<br>
+<h1 align="center">Front-end web application 📟 👨‍💻</h1>
 
-## **<h2 align="center">Front-end web application 📟 👨‍💻</h2>**
-
-## <p><h2 align="center">This web page was made with the purpose of develop my web application's skills <br> in this project I was based on building a page for Starbucks☕ with some interactive animations for the user </h2> </p>
+<p><h2 align="center">This web page was made with the purpose of develop my web application's skills <br> in this project I was based on building a page for Starbucks☕ with some interactive animations for the user </h2> </p>
 
 
 # **Main Page - Layout** 💻
